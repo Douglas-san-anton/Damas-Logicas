@@ -22,4 +22,4 @@ Los siguientes puntos no son necesarios en la entrega, pero sí suman:
 > La coronación
 Si un peón consigue llegar hasta su última línea (primera fila del rival), se convierte automáticamente en Dama. Para distinguirlas del resto de peóns se suele colocar otra peón sobre esta. La dama puede moverse en diagonal hacia delante y hacia atrás todas las casillas que desee en un solo movimiento, siempre y cuando no salte por encima de ninguna de sus propias fichas. Si al finalizar una captura, un peón se convierte en dama esta no puede seguir capturando peóns, y deberá esperar otro turno para hacerlo.
 
-Para iniciar el proyecto basta con clonarlo en tu computador y arrastrar el archivo `Index.html` hacia tu navegador y difrutar de una partida.
+Para iniciar el proyecto basta con clonarlo en tu computador ingresar  la carpeta `Damas-Logicas` arrastrar el archivo `Index.html` hacia tu navegador y disfrutar de una partida.
