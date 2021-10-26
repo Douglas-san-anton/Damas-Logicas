@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Damas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--Navegación-->
+        <nav class="navegacion">
+            <h1>Damas</h1>
+            <div class="boton">
+                <input type="button" id="nueva-partida" class="button" value="Nueva partida" />
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Nombre de los jugadores-->
+        <div id="cont-nombre-jugadores" class="cont-nombre-jugadores">
+            <div id="popup-jugadores" class="popup-jugadores cerrar-popup-jugadores">
+                <h2>Ingrese nombres de los jugadores</h2>
+                <div class="cont-info-jugadores">
+                    <input class="input-nombre" type="text" id="jugador-N1" placeholder="Jugador N°1" required>
+                    <input class="input-nombre" type="text" id="jugador-N2" placeholder="Jugador N°2" required>
+                </div>
+                <div class="cont-btn">
+                    <button id="aceptar" class="btns">Aceptar</button>
+                    <button id="cerrar-popup-jugadores" class="btns">Cerrar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jugador 1-->
+        <div id="jugador1" class="contenedorJugadores">
+            <div class="casillasNegras">
+                <div class="damasBlancas"> </div>
+            </div>
+
+            <p id="nombreJugador1">-</p>
+            <p id="puntosPj1">Puntos:</p>
+            <p id="puntos-jugador1" class="puntos">0</p>
+        </div>
+
+        <!--Tablero-->
+        <div id="tablero" class="tablero"></div>
+
+        <!-- Jugador 2-->
+        <div id="jugador2" class="contenedorJugadores">
+            <div class="casillasNegras">
+                <div class="damasRojas"> </div>
+            </div>
+
+            <p id="nombreJugador2">-</p>
+            <p id="puntosPj2">Puntos:</p>
+            <p id="puntos-jugador2" class="puntos">0</p>
+        </div>
+    </main>
+
+    <footer>
+        <!--Pie de pagina-->
+        <div class="contenedor-footer">
+            <p class="pie-descripcion">Proyecto creado para Challenge del Barto</p>
+            <a href="https://es.wikipedia.org/wiki/Damas">¿Cómo jugar?</a>
+        </div>
+    </footer>
+    <script src="../js/app.js"></script>
+    <script src="../js/jugadores.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>
